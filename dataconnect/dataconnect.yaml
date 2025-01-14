@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "Game-Library-Mobile"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "Game-Library-Mobile-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
